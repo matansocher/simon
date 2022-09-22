@@ -1,0 +1,42 @@
+
+.pad {
+    position: absolute;
+    width: 49%;
+    height: 49%;
+    &:hover {
+        opacity: 0.7;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+}
+
+.pad.green {
+    top: 0;
+    left: 0;
+    background-color: green;
+    overflow: hidden;
+}
+
+.pad.red {
+    top: 0;
+    right: 0;
+    background-color: red;
+}
+
+.pad.blue {
+    bottom: 0;
+    right: 0;
+    background-color: blue;
+}
+
+.pad.yellow {
+    bottom: 0;
+    left: 0;
+    background-color: yellow;
+}
+
+.clicked {
+    opacity: 0.7;
+    transition: 0.3s;
+    box-shadow: 5px 10px inset black;
+}

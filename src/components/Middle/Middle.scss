@@ -1,0 +1,36 @@
+.middle {
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 200px;
+    background-color: rgb(28, 25, 38);
+    border: 10px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    p {
+        color: white;
+        margin-bottom: 0;
+    }
+    &-header {
+        font-size: 32px;
+        font-weight: 500;
+        margin-top: 0;
+    }
+    &-action {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+    &-level {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+}
+
+.clickable {
+    cursor: pointer;
+}
